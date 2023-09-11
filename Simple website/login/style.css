@@ -1,0 +1,100 @@
+
+body {
+    background: #E9F1FA;
+    font-family: 'Poppins', sans-serif;
+}
+
+#form {
+    width: 350px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color:black;
+    border-radius: 4px;
+    font-size: 15px;
+    color:#00ABE4;
+    border-radius: 15px;
+}
+
+#form h1 {
+    color: wheat;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    background:#00ABE4;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    
+}
+#form button:hover{
+    background-color: red;;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder{
+    color:wheat;
+}
+
+.input-control input {
+    border: 2px solid #00ABE4;
+	border-radius: 45px;
+    background: transparent;
+    color: #00ABE4;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 95%;
+    margin: 10px 0;
+}
+.check{
+    
+    margin: 5px 0;
+}
+.check a{
+    text-decoration: none;
+    color: #00ABE4;
+    margin-left:60px;
+}
+.check a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.signup{
+    text-align: center;
+}
+.signup a{
+    text-decoration: none;
+    color: #00ABE4;
+}
+.signup a:hover{
+    color: red;
+    text-decoration: underline;
+    
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
